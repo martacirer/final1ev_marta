@@ -15,6 +15,8 @@ public class MC_hand : MonoBehaviour
     public Image live;
     public Sprite[] liveArray;
 
+  
+
     // Update is called once per frame
     void Update()
     {
@@ -22,6 +24,7 @@ public class MC_hand : MonoBehaviour
         {
          dragging = true;
          swipeStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+         
         } else if (Input.GetMouseButtonUp(0) && dragging)
             {
             dragging = false;

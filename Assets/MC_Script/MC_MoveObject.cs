@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MC_MoveObject : MonoBehaviour
 {
+
     //Speed Variables
     public float minXSpeed; 
     public float maxXSpeed;

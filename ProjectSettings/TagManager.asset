@@ -7,6 +7,7 @@ TagManager:
   - cut
   - bomb
   - MC_face1
+  - bonus
   layers:
   - Default
   - TransparentFX
@@ -41,9 +42,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 745575341
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: game
     uniqueID: 3639982101
+    locked: 0
+  - name: UI
+    uniqueID: 3057378533
     locked: 0

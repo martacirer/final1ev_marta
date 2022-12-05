@@ -176,3 +176,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 527295ccec8aca648ad73d5de2b99816, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: 7754100405371275803, guid: c52786445bedf2d4997c4f4544f6d89f, type: 3}
+  sonidoEspada: {fileID: 8300000, guid: 9c361084415453140ae836e9b8f4a67d, type: 3}

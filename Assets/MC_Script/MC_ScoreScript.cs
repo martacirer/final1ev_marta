@@ -6,19 +6,22 @@ using TMPro;
 
 public class MC_ScoreScript : MonoBehaviour
 {
-    private int currentScore;
+    private int currentScore = 0;
     public TextMeshProUGUI score;
  
     void Start () 
     {
-        currentScore = -1;
-        ScoreUpdate();
+        ScoreUpdate(0);
     }
  
-    public void ScoreUpdate()
+    // plus points
+    public void ScoreUpdate(int value)
     {
         Debug.Log("tu madre ha chocado");
-        currentScore ++;
-        score.text = "Score: " + currentScore;  
+        currentScore += value;
+        score.text = "Score: " + currentScore;
+        
+    	PlayerPrefs.SetInt("score", currentScore);
+
     }
 }

@@ -13,8 +13,7 @@ GameObject:
   - component: {fileID: 201807472981252338}
   - component: {fileID: 201807472981252342}
   - component: {fileID: 201807472981252343}
-  - component: {fileID: 172677006205326598}
-  m_Layer: 6
+  m_Layer: 5
   m_Name: MC_bomb1
   m_TagString: bomb
   m_Icon: {fileID: 0}
@@ -74,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -654985195
-  m_SortingLayer: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1985525665, guid: ef43bf5a124440e429262dcdd285107b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -152,15 +151,3 @@ MonoBehaviour:
   minYSpeed: 10
   maxYSpeed: 12
   lifeTime: 3
---- !u!114 &172677006205326598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201807472981252339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b2b734245de34c4f8a2262528cd6516, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
